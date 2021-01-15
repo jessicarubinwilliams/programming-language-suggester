@@ -1,0 +1,30 @@
+Questions to ask:
+1. Are you interested in gemology, lapidary, or geology? (Yes=Ruby)
+
+  If yes, constant language = "Ruby"
+  else if
+
+2. Are you a soprano, an alto, tenor or bass? (Soprano=C#)
+
+  If Soprano, constant language = "C#"
+  else if
+
+3. Does herpetology interest you? (Yes=Python)
+
+  If yes, constant language = "Python"
+  else if
+
+4. Do you like to drink coffee? (Yes=JavaScript)
+
+  If yes, constant language = "JavaScript"
+  else if
+
+5. Can you run an 8-minute mile? (Yes=Swift)
+
+  If yes, constant language = "Swift"
+  else
+
+  constant language = "Go"
+
+
+

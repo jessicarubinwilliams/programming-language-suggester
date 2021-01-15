@@ -1,7 +1,5 @@
 $(document).ready(function() {
-  console.log("Script executing!");
   $("#formOne").submit(function(event) {
-    console.log("Submit form successfully reached.");
     const ruby = $("input#gemology").val();
     const cSharp = $("input#music").val();
     const python = $("input#herpetology").val();

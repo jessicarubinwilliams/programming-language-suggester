@@ -15,15 +15,15 @@ $(document).ready(function() {
       } else if (python === "yes") {
         $(".card").hide();
         $("#aboutPython").show();
-      } else if javaScript === "yes" {
+      } else if (javaScript === "yes") {
         $(".card").hide();
         $("#aboutJavaScript").show();
-      } else if swift === "yes" {
+      } else if (swift === "yes") {
         $(".card").hide();
         $("#aboutSwift").show();
       } else {
         $(".card").hide();
-        $("#aboutGp").show();
+        $("#aboutGo").show();
       }
 
     event.preventDefault();

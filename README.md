@@ -20,7 +20,7 @@ _The user answers five questions with "yes" or "no," submits answers and receive
 * _Navigate to the directory inside which you wish to house this project_
 * _Clone this project with the following git command $ git clone https://github.com/jessicarubinwilliams/programming-language-suggester_
 * _Navigate to the top level of the repository with the command $ cd portfolio_
-* _Open index.html in the browser of you choice with the command $ open index.html_.
+* _Open index.html in the browser of your choice with the command $ open index.html_.
 
 _Alternatively,_
 

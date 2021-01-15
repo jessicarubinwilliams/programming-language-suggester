@@ -6,6 +6,10 @@
   font-weight: bold;
 }
 
+.btn {
+  background-color: cornflowerblue;
+}
+
 .border {
   border: solid black;
 }

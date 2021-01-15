@@ -1,30 +1,43 @@
+
+$(document).ready(function() {
+  $("formOne").submit(function(event) {
+    const ruby = $("input#ruby").val();
+    const cSharp = $("input#cSharp").val();
+    const python = $("input#python").val();
+    const javaScript = $("input#javaScript).val();
+    const swift = $("input#swift).val()
+
+event.preventDefault();
+  });
+});
+
 Questions to ask:
 1. Are you interested in gemology, lapidary, or geology? (Yes=Ruby)
 
-  If yes, constant language = "Ruby"
+  If yes, constant ruby = "yes"
   else if
 
-2. Are you a soprano, an alto, tenor or bass? (Soprano=C#)
+2. Do you know how to read music? (Yes=C#)
 
-  If Soprano, constant language = "C#"
+  If yes, constant cSharp = "yes"
   else if
 
 3. Does herpetology interest you? (Yes=Python)
 
-  If yes, constant language = "Python"
+  If yes, constant python = "yes"
   else if
 
 4. Do you like to drink coffee? (Yes=JavaScript)
 
-  If yes, constant language = "JavaScript"
+  If yes, constant javaScript = "yes"
   else if
 
 5. Can you run an 8-minute mile? (Yes=Swift)
 
-  If yes, constant language = "Swift"
+  If yes, constant swift = "yes"
   else
 
-  constant language = "Go"
+  language = Go
 
 
 

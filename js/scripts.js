@@ -26,4 +26,9 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+  $("#refresh").click(function(event) {
+    location.reload(true);
+    
+    event.preventDefault();
+  })
 });

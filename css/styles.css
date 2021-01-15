@@ -14,7 +14,7 @@
   border: solid black;
 }
 
-#learnTheAnswer {
+.card {
   display: none;
 }
 

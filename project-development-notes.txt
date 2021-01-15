@@ -1,11 +1,11 @@
 
 $(document).ready(function() {
   $("formOne").submit(function(event) {
-    const ruby = $("input#ruby").val();
-    const cSharp = $("input#cSharp").val();
-    const python = $("input#python").val();
-    const javaScript = $("input#javaScript).val();
-    const swift = $("input#swift).val()
+    const ruby = $("input#gemology").val();;
+    const cSharp = $("input#music").val();
+    const python = $("input#herpetology").val();
+    const javaScript = $("input#coffee).val();
+    const swift = $("input#run).val()
 
 event.preventDefault();
   });

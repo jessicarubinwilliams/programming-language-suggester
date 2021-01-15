@@ -1,3 +1,19 @@
+.big-bottom-margin {
+  margin-bottom: 75px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border {
+  border: solid black;
+}
+
 #learnTheAnswer {
   display: none;
+}
+
+.small-bottom-margin {
+  margin-bottom: 25px;
 }

@@ -32,6 +32,10 @@ $(document).ready(function() {
       $("#takeQuizAgain").show();
     }
     event.preventDefault();
-
   });
+  $("#takeQuizAgain").click(function(event) {
+    location.reload(true);
+    
+    event.preventDefault();
+  })
 });

@@ -13,9 +13,9 @@ $(document).ready(function() {
         suggestedLanguage = "C#";
       } else if (python === "yes") {
         suggestedLanguage = "Python";
-      } else if javaScript === "yes" {
+      } else if (javaScript === "yes") {
         suggestedLanguage = "JavaScript";
-      } else if swift === "yes" {
+      } else if (swift === "yes") {
         suggestedLanguage = "Swift";
       } else {
         suggestedLanguage = "Go";

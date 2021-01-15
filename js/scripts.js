@@ -6,23 +6,24 @@ $(document).ready(function() {
     const javaScript = $("input#coffee").val();
     const swift = $("input#run").val();
 
-    let suggestedLanguage;
-    if (ruby === "yes") {
-      suggestedLanguage = "Ruby";
-    } else if (cSharp === "yes") {
-      suggestedLanguage = "C#";
-    } else if (python === "yes") {
-      suggestedLanguage = "Python";
-    } else if javaScript === "yes" {
-      suggestedLanguage = "JavaScript";
-    } else if swift === "yes" {
-      suggestedLanguage = "Swift";
-    } else {
-      suggestedLanguage = "Go";
-    }
-      
-    
+      let suggestedLanguage;
+      if (ruby === "yes") {
+        suggestedLanguage = "Ruby";
+      } else if (cSharp === "yes") {
+        suggestedLanguage = "C#";
+      } else if (python === "yes") {
+        suggestedLanguage = "Python";
+      } else if javaScript === "yes" {
+        suggestedLanguage = "JavaScript";
+      } else if swift === "yes" {
+        suggestedLanguage = "Swift";
+      } else {
+        suggestedLanguage = "Go";
+      }
 
-event.preventDefault();
+    $(".suggestedLanguage").text(suggestedLanguage) 
+    $("#learnTheAnswer").show();
+
+    event.preventDefault();
   });
 });

@@ -1,8 +1,8 @@
 Have been walking through the steps of the debugging lessons but no luck yet.
 
-I did identify some syntax errors and correct them however my script is still not executing.
+I did identify some syntax errors and correct them.
 
-i.e. console.log("Script executing!"); does not return "Script executing" in the console when the page loads.
+My script is now executing but my submit form is not yet successfully reached.
 
 
 

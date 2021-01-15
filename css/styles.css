@@ -21,3 +21,7 @@
 .small-bottom-margin {
   margin-bottom: 25px;
 }
+
+#takeQuizAgain {
+  display: none;
+}

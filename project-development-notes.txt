@@ -2,7 +2,5 @@ Have been walking through the steps of the debugging lessons but no luck yet.
 
 I did identify some syntax errors and correct them.
 
-My script is now executing but my submit form is not yet successfully reached.
-
-
+My script is now executing and my submit form is successfully reached. *I was missing the # before the id in the argument of my jQuery submit function!* So much struggle for want of a #!
 

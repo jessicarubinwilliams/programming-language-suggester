@@ -1,43 +1,8 @@
+Have been walking through the steps of the debugging lessons but no luck yet.
 
-$(document).ready(function() {
-  $("formOne").submit(function(event) {
-    const ruby = $("input#gemology").val();;
-    const cSharp = $("input#music").val();
-    const python = $("input#herpetology").val();
-    const javaScript = $("input#coffee).val();
-    const swift = $("input#run).val()
+I did identify some syntax errors and correct them however my script is still not executing.
 
-event.preventDefault();
-  });
-});
-
-Questions to ask:
-1. Are you interested in gemology, lapidary, or geology? (Yes=Ruby)
-
-  If yes, constant ruby = "yes"
-  else if
-
-2. Do you know how to read music? (Yes=C#)
-
-  If yes, constant cSharp = "yes"
-  else if
-
-3. Does herpetology interest you? (Yes=Python)
-
-  If yes, constant python = "yes"
-  else if
-
-4. Do you like to drink coffee? (Yes=JavaScript)
-
-  If yes, constant javaScript = "yes"
-  else if
-
-5. Can you run an 8-minute mile? (Yes=Swift)
-
-  If yes, constant swift = "yes"
-  else
-
-  language = Go
+i.e. console.log("Script executing!"); does not return "Script executing" in the console when the page loads.
 
 
 

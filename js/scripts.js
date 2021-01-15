@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("formOne").submit(function(event) {
+    
     const ruby = $("input#gemology").val();
     const cSharp = $("input#music").val();
     const python = $("input#herpetology").val();
@@ -27,5 +28,6 @@ $(document).ready(function() {
       }
 
     event.preventDefault();
+
   });
 });

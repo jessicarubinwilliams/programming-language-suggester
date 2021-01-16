@@ -28,7 +28,7 @@ _Alternatively,_
 
 ## Known Bugs
 
-* _The user must type in answers. This page would be better with form inputs such as radio buttons._
+* _No known bugs._
 
 ## License
 *[MIT](https://choosealicense.com/licenses/mit/)*

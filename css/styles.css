@@ -6,12 +6,12 @@
   font-weight: bold;
 }
 
-.btn {
-  background-color: cornflowerblue;
-}
-
 .border {
   border: solid black;
+}
+
+.btn {
+  background-color: cornflowerblue;
 }
 
 #learnTheAnswer {

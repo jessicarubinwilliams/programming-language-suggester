@@ -12,14 +12,14 @@
 
 ## Description
 
-_The user answers five questions with "yes" or "no," submits answers and receives a suggestions of which programming language to learn. The user may also retake the quiz._
+_The user answers five questions with "yes" or "no," submits answers and receives a suggestion of which programming language to learn. The user may also retake the quiz._
 
 ## Setup/Installation Requirements
 
 * _Open the terminal on your local machine_
-* _Navigate to the directory inside which you wish to house this project_
+* _Navigate to the directory inside of which you wish to house this project_
 * _Clone this project with the following git command $ git clone https://github.com/jessicarubinwilliams/programming-language-suggester_
-* _Navigate to the top level of the repository with the command $ cd portfolio_
+* _Navigate to the top level of the repository with the command $ cd programming-language-suggester_
 * _Open index.html in the browser of your choice with the command $ open index.html_.
 
 _Alternatively,_

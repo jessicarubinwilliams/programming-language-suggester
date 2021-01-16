@@ -25,6 +25,7 @@ $(document).ready(function() {
 
     $(".suggestedLanguage").text(suggestedLanguage) 
     $("#learnTheAnswer").show();
+    $("#reveal").hide();
 
     event.preventDefault();
   });

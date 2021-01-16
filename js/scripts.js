@@ -1,10 +1,12 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    const ruby = $("input#gemology").val();
-    const cSharp = $("input#music").val();
-    const python = $("input#herpetology").val();
-    const javaScript = $("input#coffee").val();
-    const swift = $("input#run").val();
+    const flavor = $("input:radio[name=run]:checked").val();
+
+    const ruby = $("input:radio[name=gemology]:checked").val();
+    const cSharp = $("input:radio[name=music]:checked").val();
+    const python = $("input:radio[name=herpetology]:checked").val();
+    const javaScript = $("input:radio[name=coffee]:checked").val();
+    const swift = $("input:radio[name=run]:checked").val();
 
       let suggestedLanguage;
       if (ruby === "yes") {

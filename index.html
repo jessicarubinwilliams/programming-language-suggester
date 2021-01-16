@@ -10,32 +10,83 @@
 <body>
   <div class="container">
     <h1>Programming Language Suggester</h1>
-    <h3>Find out which programming language is right for you by answering just a few simple questions!</h3>
-    <h5>Please answer all questions by typing either "yes" or "no" in lower case letters.</h5>
-    <h6 class="bold">Example:</h6>
-    <p>Do you like apples?</p>
-    <p class="border big-bottom-margin">yes</p>
+    <h3 class="big-bottom-margin">Find out which programming language is right for you!</h3>
     <h3 class="small-bottom-margin">Your First Programming Language Quiz</h3>
     <form id="formOne">
       <div class="form-group">
         <label for="gemology">1. Are you interested in gemology, lapidary, or geology?</label>
-        <input id="gemology" class="form-control" type="text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="gemology" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gemology" value="no">
+            No
+          </label>
+        </div>
       </div>
       <div class="form-group">
         <label for="music">2. Do you know how to read music?</label>
-        <input id="music" class="form-control" type="text">
+        <<div class="radio">
+          <label>
+            <input type="radio" name="music" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="no">
+            No
+          </label>
+        </div>
       </div>
       <div class="form-group">
         <label for="herpetology">3. Does herpetology interest you?</label>
-        <input id="herpetology" class="form-control" type="text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="herpetology" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="herpetology" value="no">
+            No
+          </label>
+        </div>
       </div>
       <div class="form-group">
         <label for="coffee">4. Do you like to drink coffee?</label>
-        <input id="coffee" class="form-control" type="text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="no">
+            No
+          </label>
+        </div>
       </div>
       <div class="form-group">
         <label for="run">5. Can you run an 8-minute mile?</label>
-        <input id="run" class="form-control" type="text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="run" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="run" value="no">
+            No
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn small-bottom-margin" id="reveal">Discover which programming language to learn first!</button>
     </form>
